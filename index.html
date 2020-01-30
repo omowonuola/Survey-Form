@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="first">
+            <h1>Survey Form</h1>
+        </div>
+        <div class="main">
+            <div class="second">
+                <p>Let us know how we can improve freeCodeCamp</p><br>
+            </div>    <div class="form-1">
+                    <p >*Name:<input type="text" placeholder="Enter your name"></p>
+                    <p>*Email:<input type="text" placeholder="Enter your email"></p>
+                    <p>*Age:<input type="number" placeholder="Age"></p>
+                </div>
+                <div class="form-2">
+                    <p>Which option best describes your current role?
+                        <select name="profession">
+                            <option value="student">Student</option>
+                            <option value="employed">Employed</option>
+                            <option value="unemployed">Unemployed</option>
+                            <option value="self-employed">Self-employed</option>
+                        </select>
+                    </p> 
+                </div> 
+                
+                <div class="form-3">
+                   <p>*How likely is it that you would recommend<br> freeCodeCamp to a friend?
+                        <form>
+                            <input type="radio" name="recommendation" value="definitely">Definitely<br>
+                            <input type="radio" name="recommendation" value="maybe">Maybe<br>
+                            <input type="radio" name="recommendation" value="not sure">Not sure 
+                        </form>
+                    </p> 
+                </div>
+                                       
+                
+
+                <div class="Third-form">
+                    <div class="form-4">
+                        <p>What do you like most in FCC:
+                            <select name="feedback">
+                                <option value="select">Select an option</option>
+                                <option value="videos">Videos</option>
+                                <option value="e-books">E-books</option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+                <div class="fourth-form">
+                    <p>Things that should be improved in the future<br>{check all that apply}
+                        <form>
+                            <input type="checkbox" name="front-end" value="front-end">Front-end Projects<br>
+                            <input type="checkbox" name="front-end" value="front-end">Back-end Projects<br>
+                            <input type="checkbox" name="front-end" value="front-end">Data Visualization
+                        </form>
+                    </p>
+
+                    <br>
+                    <form>
+                        <button type="submit" class="button-1">Submit</button>
+                    </form>
+                </div>
+                
+            
+    </div>
+
+</body>
+</html>
